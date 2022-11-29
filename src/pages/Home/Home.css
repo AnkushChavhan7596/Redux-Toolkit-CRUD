@@ -1,0 +1,132 @@
+.heading h2{
+    background-color: rgb(61, 148, 223);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.wrapper{
+    display: flex;
+    padding: 30px;
+}
+
+
+/* left wrapper */
+
+.wrapper .left{
+    display: flex;
+    flex:3;
+    flex-wrap: wrap;
+
+}
+
+.item{
+    width: 300px;
+    height: 140px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.17);
+    margin: 30px 10px;
+    padding: 10px 15px;
+}
+
+.excersize_name{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(91, 90, 90);
+    padding: 10px 0;
+}
+
+.no_reps{
+    font-size: 18px;
+    font-weight: 600;
+    color: gray;
+}
+
+.edit, .delete{
+    width: 90px;
+   padding: 5px 10px;
+   margin-right: 12px;
+   margin-top: 15px;
+   font-weight: 600;
+   font-size: 15px;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.252);
+   cursor: pointer;
+}
+
+.edit{
+    background-color: rgb(154, 83, 221);
+}
+
+.delete{
+    background-color: rgb(250, 105, 105);
+}
+
+/* right wrapper */
+
+.wrapper .right{
+    flex : 1;
+}
+
+.field{
+    margin: 20px 0;
+}
+
+.field label{
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.field input{
+    width: 350px;
+    padding: 10px 10px;
+    border: 2px solid transparent;
+    transition: .7s ease;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.17);
+}
+
+.field input:focus{
+    border: 2px solid rgba(40, 123, 218, 0.745);
+}
+
+.add_wrapper button{
+   padding: 7px 30px;
+   background-color: rgba(54, 120, 182, 0.784);
+   color: white;
+   border: none;
+   margin-right: 15px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   cursor: pointer;
+   outline: none;
+   border-radius: 5px;
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.21);
+}
+
+.cancel{
+    background-color: rgb(232, 85, 85) !important; 
+}
+
+.add_excercise{
+    text-align: center;
+    font-size: 700;
+    color: rgb(39, 124, 209);
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.53);
+}
+
+.udpateForm{
+    border: 1px solid purple;
+    padding: 20px;
+}
